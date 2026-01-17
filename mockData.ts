@@ -45,26 +45,26 @@ export const CATEGORIES = [
   { name: 'Home Bar', image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=300' },
   { name: 'Corridor', image: 'https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?auto=format&fit=crop&q=80&w=300' },
   { name: 'Utility Room', image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=300' },
-  { name: 'Dining', image: 'https://images.unsplash.com/photo-1617806118233-18e1db207fa6?auto=format&fit=crop&q=80&w=300' },
-  { name: 'Basement', image: 'https://images.unsplash.com/photo-1533657351334-03713017a4c9?auto=format&fit=crop&q=80&w=300' },
-  { name: 'Entry', image: 'https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&q=80&w=300' },
+  // { name: 'Dining', image: 'https://images.unsplash.com/photo-1617806118233-18e1db207fa6?auto=format&fit=crop&q=80&w=300' },
+  // { name: 'Basement', image: 'https://images.unsplash.com/photo-1533657351334-03713017a4c9?auto=format&fit=crop&q=80&w=300' },
+  // { name: 'Entry', image: 'https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&q=80&w=300' },
   { name: 'Staircase', image: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&q=80&w=300' },
   { name: 'Wine Cellar', image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=300' },
 ];
 
 export const PROJECTS = [
   { id: 'k1', title: 'Emerald Island Kitchen', category: 'Kitchen', location: 'Bangalore', image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=800', description: 'Deep green cabinetry with marble finish.' },
-  { id: 'k2', title: 'Urban Loft Kitchen', category: 'Kitchen', location: 'Mumbai', image: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?auto=format&fit=crop&q=80&w=800', description: 'Exposed brick and matte black fixtures.' },
-  { id: 'k3', title: 'White Oak Minimalist', category: 'Kitchen', location: 'Pune', image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80&w=800', description: 'Light wood and bright surfaces.' },
-  { id: 'b1', title: 'Serene Spa Bath', category: 'Bath', location: 'Delhi', image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&q=80&w=800', description: 'Natural stone and rainfall showers.' },
-  { id: 'b2', title: 'Contemporary Master Bath', category: 'Bath', location: 'Hyderabad', image: 'https://images.unsplash.com/photo-1620626011761-9963d7521476?auto=format&fit=crop&q=80&w=800', description: 'Double vanity with backlit mirrors.' },
-  { id: 'br1', title: 'Velvet Dream Suite', category: 'Bedroom', location: 'Chennai', image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800', description: 'Rich textures and ambient lighting.' },
-  { id: 'br2', title: 'Minimalist Sanctuary', category: 'Bedroom', location: 'Kolkata', image: 'https://images.unsplash.com/photo-1560185127-6a449a724950?auto=format&fit=crop&q=80&w=800', description: 'Clutter-free and calming tones.' },
-  { id: 'l1', title: 'Modern Open Living', category: 'Living', location: 'Mumbai', image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=800', description: 'High ceilings and expansive windows.' },
-  { id: 'l2', title: 'Boho Chic Lounge', category: 'Living', location: 'Goa', image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=800', description: 'Vibrant rugs and indoor greenery.' },
+  { id: 'k2', title: 'Urban Loft Kitchen', category: 'Kitchen', location: 'Bangalore  ', image: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?auto=format&fit=crop&q=80&w=800', description: 'Exposed brick and matte black fixtures.' },
+  { id: 'k3', title: 'White Oak Minimalist', category: 'Kitchen', location: 'Bangalore', image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80&w=800', description: 'Light wood and bright surfaces.' },
+  { id: 'b1', title: 'Serene Spa Bath', category: 'Bath', location: 'Bangalore prestige temple', image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&q=80&w=800', description: 'Natural stone and rainfall showers.' },
+  // { id: 'b2', title: 'Contemporary Master Bath', category: 'Bath', location: 'Hyderabad', image: 'https://images.unsplash.com/photo-1620626011761-9963d7521476?auto=format&fit=crop&q=80&w=800', description: 'Double vanity with backlit mirrors.' },
+  { id: 'br1', title: 'Velvet Dream Suite', category: 'Bedroom', location: 'Bangalore ', image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800', description: 'Rich textures and ambient lighting.' },
+  // { id: 'br2', title: 'Minimalist Sanctuary', category: 'Bedroom', location: 'Kolkata', image: 'https://images.unsplash.com/photo-1560185127-6a449a724950?auto=format&fit=crop&q=80&w=800', description: 'Clutter-free and calming tones.' },
+  { id: 'l1', title: 'Modern Open Living', category: 'Living', location: 'Bangalore KA', image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=800', description: 'High ceilings and expansive windows.' },
+  { id: 'l2', title: 'Boho Chic Lounge', category: 'Living', location: 'Bangalore', image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=800', description: 'Vibrant rugs and indoor greenery.' },
   { id: 'o1', title: 'Productive Workspace', category: 'Home Office', location: 'Bangalore', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800', description: 'Ergonomic design for long hours.' },
-  { id: 'wc1', title: 'Vintage Vault', category: 'Wine Cellar', location: 'Nashik', image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800', description: 'Temperature controlled luxury.' },
-  { id: 'hg1', title: 'Iron Paradise', category: 'Home Gym', location: 'Delhi', image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800', description: 'Professional grade equipment at home.' },
+  { id: 'wc1', title: 'Vintage Vault', category: 'Wine Cellar', location: 'Bangalore', image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800', description: 'Temperature controlled luxury.' },
+  { id: 'hg1', title: 'Iron Paradise', category: 'Home Gym', location: 'Bangalore', image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800', description: 'Professional grade equipment at home.' },
 ];
 
 export const PRODUCTS = [
@@ -95,16 +95,16 @@ export const PRODUCTS = [
     specs: ['Brushed Brass', 'Marble Base', 'LED Compatible', 'Adjustable Height'],
     amazonLink: 'https://amazon.in/dp/example-lamp'
   },
-  { 
-    id: 'p3', 
-    name: 'Nordic Oak Dining Table', 
-    category: 'Dining', 
-    price: '₹85,000', 
-    image: 'https://images.unsplash.com/photo-1577145946469-1c27e8bc35aa?auto=format&fit=crop&q=80&w=800',
-    description: 'Minimalist 6-seater dining table made from sustainably sourced white oak.',
-    specs: ['White Oak', 'Matte Lacquer Finish', '6-8 Seater', 'Eco-friendly'],
-    amazonLink: 'https://amazon.in/dp/example-table'
-  },
+  // { 
+  //   id: 'p3', 
+  //   name: 'Nordic Oak Dining Table', 
+  //   category: 'Dining', 
+  //   price: '₹85,000', 
+  //   image: 'https://images.unsplash.com/photo-1577145946469-1c27e8bc35aa?auto=format&fit=crop&q=80&w=800',
+  //   description: 'Minimalist 6-seater dining table made from sustainably sourced white oak.',
+  //   specs: ['White Oak', 'Matte Lacquer Finish', '6-8 Seater', 'Eco-friendly'],
+  //   amazonLink: 'https://amazon.in/dp/example-table'
+  // },
   { 
     id: 'p4', 
     name: 'Zenith Hand-Woven Rug', 
@@ -125,16 +125,16 @@ export const PRODUCTS = [
     specs: ['Powder Coated Steel', 'Solid Slat Base', 'King Size', 'Includes Assembly'],
     amazonLink: 'https://amazon.in/dp/example-bed'
   },
-  { 
-    id: 'p6', 
-    name: 'Terra Cotta Vase Set', 
-    category: 'Decor', 
-    price: '₹4,500', 
-    image: 'https://images.unsplash.com/photo-1578500484748-482989298244?auto=format&fit=crop&q=80&w=800',
-    description: 'Trio of hand-fired ceramic vases with a matte earth-tone finish.',
-    specs: ['Hand-fired Ceramic', 'Waterproof', 'Set of 3', 'Artisan Made'],
-    amazonLink: 'https://amazon.in/dp/example-vases'
-  },
+  // { 
+  //   id: 'p6', 
+  //   name: 'Terra Cotta Vase Set', 
+  //   category: 'Decor', 
+  //   price: '₹4,500', 
+  //   image: 'https://images.unsplash.com/photo-1578500484748-482989298244?auto=format&fit=crop&q=80&w=800',
+  //   description: 'Trio of hand-fired ceramic vases with a matte earth-tone finish.',
+  //   specs: ['Hand-fired Ceramic', 'Waterproof', 'Set of 3', 'Artisan Made'],
+  //   amazonLink: 'https://amazon.in/dp/example-vases'
+  // },
   { 
     id: 'p7', 
     name: 'Orbit Round Mirror', 
