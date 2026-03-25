@@ -23,8 +23,11 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               Bespoke interior design, architectural planning, and structural solutions tailored to your unique lifestyle.
             </p>
             <div className="flex gap-4">
-              {[Instagram, Twitter, Facebook, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center text-stone-500 hover:bg-stone-900 hover:text-white transition-all">
+              {[
+                { Icon: Instagram, href: "https://www.instagram.com/matsyavahventures06?igsh=MThjcGJmYnY0bmFoNw%3D%3D&utm_source=qr" },
+                { Icon: Facebook, href: "https://www.instagram.com/matsyavahventures06?igsh=MThjcGJmYnY0bmFoNw%3D%3D&utm_source=qr" }
+              ].map(({ Icon, href }, i) => (
+                <a key={i} href={href} className="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center text-stone-500 hover:bg-stone-900 hover:text-white transition-all">
                   <Icon size={18} />
                 </a>
               ))}
