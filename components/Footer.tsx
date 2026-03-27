@@ -25,7 +25,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="flex gap-4">
               {[
                 { Icon: Instagram, href: "https://www.instagram.com/matsyavahventures06?igsh=MThjcGJmYnY0bmFoNw%3D%3D&utm_source=qr" },
-                { Icon: Facebook, href: "https://www.instagram.com/matsyavahventures06?igsh=MThjcGJmYnY0bmFoNw%3D%3D&utm_source=qr" }
+                { Icon: Facebook, href: "https://www.facebook.com/share/1DHAenduTK/?mibextid=wwXIfr" }
               ].map(({ Icon, href }, i) => (
                 <a key={i} href={href} className="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center text-stone-500 hover:bg-stone-900 hover:text-white transition-all">
                   <Icon size={18} />
